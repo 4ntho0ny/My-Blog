@@ -1,0 +1,86 @@
+@import '../../../static/app.css';
+
+#welcome {
+    background: linear-gradient(90deg, var(--dark-slate-green) 50%, rgba(67,103,103,1) 100%);
+    padding: 6rem 12% 3rem 12%;
+}
+
+#welcome header {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    margin: 3rem 0 0 0;
+}
+
+#welcome #title {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+#welcome img {
+    width: 10rem;
+    height: 10rem;
+    object-fit: cover;
+    object-position: top;
+    border: 5px solid var(--light-gray);
+    border-radius: 12px;
+    background-color: var(--slate-gray);
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.25);
+    transform: rotateZ(-5deg);
+}
+
+#welcome h2 {
+    font-size: 3.5rem;
+    margin: 0 0 0 2rem;
+    color: var(--light-gray);
+    width: max-content;
+}
+
+#welcome p {
+    color: var(--light-gray);
+    font-size: 1.5rem;
+    padding: 4rem 0 0 0;
+}
+
+#latest-posts {
+    background-color: white;
+    padding: 2rem;
+    border-radius: 12px;
+    width: 60rem;
+    margin: -2rem auto 2rem auto;
+    box-shadow: 1px 1px 12px rgba(0, 0, 0, 0.4);
+}
+
+#latest-posts h2 {
+    text-align: center;
+}
+
+#lastest-posts ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    gap: 1rem;
+}
+
+#latest-posts li {
+    flex: 1;
+}
+
+#about {
+    text-align: center;
+    padding: 3rem;
+    background-color: var(--medium-sea-green);
+    margin-top: 5rem;
+    color: var(--light-gray);
+}
+
+#about h2 {
+    font-size: 3rem;
+}
+
+#about p {
+    font-size: 1.5rem;
+    color: var(--light-gray);
+}
