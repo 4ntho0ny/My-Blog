@@ -19,11 +19,12 @@
     transform: scale(1.1);
     background-color: var(--medium-sea-green);
     color: var(--light-gray);
+    border-radius: 20px 15px;
 }
 
 .post img {
-    width: 5rem;
-    height: 5rem;
+    width: 7rem;
+    height: 7rem;
     object-fit: cover;
     border: 25%;
 }

@@ -14,7 +14,7 @@
     <section id="welcome">
         <header>
             <div id="title">
-                <img src="{% static "blog/images/anthony.png"%}" alt="Thony - Author Of This Blog"/>
+                <img src="{% static "blog/images/anthony.png" %}" alt="Thony - Author Of This Blog"/>
                 <h2>ANTHONY CHENDRIK</h2>
             </div>
             <p>Hi, I am Anthony and I love to blog about tech and the world!</p>
@@ -25,6 +25,8 @@
         <h2>My Latest Thoughts</h2>
 
         <ul>
+            {% include "blog/includes/post.html" %}
+            {% include "blog/includes/post.html" %}
             {% include "blog/includes/post.html" %}
         </ul>
     </section>

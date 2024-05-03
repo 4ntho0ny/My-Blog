@@ -54,16 +54,17 @@
 
 #latest-posts h2 {
     text-align: center;
+    margin: 0 0 2rem;
 }
 
-#lastest-posts ul {
+#latest-posts ul {
     list-style: none;
     margin: 0;
     padding: 0;
     display: flex;
     gap: 1rem;
-}
-
+  }
+  
 #latest-posts li {
     flex: 1;
 }
