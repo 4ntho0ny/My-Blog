@@ -2,11 +2,11 @@
 
 <li>
     <article class="post">
-        <a href="{% url "posts-details-page" "the-mountains" %}">
-            <img src="{% static "../../../static/blog/images/tic_tac_toe.png" %}" alt="Tic Tac Toe">
+        <a href="{% url "posts-details-page" post.slug %}">
+            <img src="{% static "blog/images/"|add:post.image %}" alt="{{ post.title }}">
             <div class="post_content">
-                <h3>Tic Tac Toe</h3>
-                <p>This is Tic Tac Toe game, made with python and pygame library</p>
+                <h3>{{ post.title }}</h3>
+                <p>{{ post.excerpt }}</p>
             </div>
         </a>
     </article>
