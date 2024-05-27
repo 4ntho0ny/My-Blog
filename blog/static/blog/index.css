@@ -1,4 +1,4 @@
-@import '../../../static/app.css';
+@import 'app.css';
 
 #welcome {
     background: linear-gradient(90deg, var(--dark-slate-green) 50%, rgba(67,103,103,1) 100%);
